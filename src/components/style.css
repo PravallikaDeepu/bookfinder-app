@@ -1,0 +1,68 @@
+.hero {
+  border: 2px solid rgb(9, 119, 131);
+  border-radius: 16px;
+  padding: 50px 40px;
+  margin: 50px auto;
+  width: 70%;
+  background: linear-gradient(135deg, #fdfdfd, #eaf6f6);
+  box-shadow: 0 6px 20px rgba(9, 119, 131, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+}
+
+.hero:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(9, 119, 131, 0.3);
+}
+
+.hero h1 {
+  color: rgb(9, 119, 131);
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.hero p {
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero h6 {
+  color: rgb(0, 185, 255);
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.hero input {
+  border: 2px solid rgb(9, 119, 131);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.hero input:focus {
+  border-color: rgb(0, 185, 255);
+  box-shadow: 0 0 8px rgba(0, 185, 255, 0.3);
+  outline: none;
+}
+
+.hero button {
+  background-color: rgb(9, 119, 131);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: rgb(0, 185, 255);
+  box-shadow: 0 4px 10px rgba(0, 185, 255, 0.3);
+}
